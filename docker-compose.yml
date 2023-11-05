@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gin-dev:
+    image: gin-dev
+    container_name: gin-dev
+    ports:
+      - 80:8080
+    volumes:
+      - .:/golangGinBlog
+    
